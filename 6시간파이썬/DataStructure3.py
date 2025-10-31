@@ -1,0 +1,17 @@
+# 튜플
+# 내용 변경이나 추가 못함 ;;
+# 속도가 리스트 보다 빠름
+
+# 돈까스 메뉴 : 돈까스, 치즈까스
+menu = ('돈가스','치즈까스')
+print(menu[0])
+print(menu[1])
+
+name = "김종국"
+age = 20
+hobby = 'coding'
+
+print(name,age,hobby)
+
+name,age,hobby = '김종국',20,'코딩'
+print(name,age,hobby)
